@@ -10,7 +10,7 @@ services:
       - USER=odoo
       - PASSWORD=odoo
   db:
-    image: postgres:18
+    image: postgres:15
     environment:
       - POSTGRES_USER=odoo
       - POSTGRES_PASSWORD=odoo
