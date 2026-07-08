@@ -9,8 +9,6 @@ services:
       - HOST=db
       - USER=odoo
       - PASSWORD=odoo
-    command: >
-      odoo -i base --without-demo=all
   db:
     image: postgres:18
     environment:
