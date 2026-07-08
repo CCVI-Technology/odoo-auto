@@ -13,7 +13,6 @@ services:
   db:
     image: postgres:18
     environment:
-      - POSTGRES_DB=odoo
       - POSTGRES_USER=odoo
       - POSTGRES_PASSWORD=odoo
       - PGDATA=/var/lib/postgresql/data/pgdata
